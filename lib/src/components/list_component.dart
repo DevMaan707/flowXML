@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// List component for displaying structured data
 class ListComponent extends XmlComponent {

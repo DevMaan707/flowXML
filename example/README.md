@@ -1,16 +1,71 @@
-# example
+# FlowXML Example
 
-A new Flutter project.
+This example demonstrates the FlowXML library's capabilities for real-time XML streaming and component rendering.
 
-## Getting Started
+## Features Demonstrated
 
-This project is a starting point for a Flutter application.
+- **Real-time XML streaming** - Watch components appear as XML data streams in
+- **Dynamic component creation** - XML tags automatically become Flutter widgets
+- **Interactive elements** - Buttons, option selectors, and other interactive components
+- **Rich content rendering** - Images, videos, cards, lists, and formatted text
+- **Performance optimization** - Efficient handling of large datasets
+- **Error handling** - Graceful fallback for invalid or incomplete XML
 
-A few resources to get you started if this is your first Flutter project:
+## Components Showcased
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Card` - Grouped content with titles and elevation
+- `Image` - Network images with loading states
+- `Video` - Video playback with native controls
+- `Button` - Interactive buttons with actions
+- `Progress` - Linear and circular progress indicators
+- `List` - Ordered and unordered lists
+- `OptionSelector` - Interactive choice selection
+- `PostBody` - Rich text content with copy functionality
+- `Loader` - Loading spinners and indicators
+- `Message` - Text messages with markdown support
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running the Example
+
+1. Navigate to the example directory:
+   ```bash
+   cd example
+   ```
+
+2. Get dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## What to Expect
+
+When you click **"Start Big Data Stream"**, the app will:
+
+1. Begin streaming XML content in realistic chunks
+2. Parse each chunk incrementally as it arrives
+3. Render Flutter components in real-time
+4. Show progress and performance metrics
+5. Demonstrate interactive component features
+
+The demo simulates a realistic AI chat interface where XML responses are streamed and converted into rich UI components on-the-fly.
+
+## Code Structure
+
+- `main.dart` - Main application entry point with streaming demo
+- Uses `XmlStreamController` for managing real-time XML streaming
+- Demonstrates `FlowXML.renderer()` for direct XML rendering
+- Shows component interaction callbacks and error handling
+
+## Key Learning Points
+
+- How to set up real-time XML streaming
+- Component registration and customization
+- Performance considerations for large datasets
+- Error handling and graceful degradation
+- Interactive component implementation
+
+This example serves as both a demonstration and a reference implementation for integrating FlowXML into your own applications.

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Video component for displaying videos from URLs
 class VideoComponent extends XmlComponent {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Progress component for showing completion status
 class ProgressComponent extends XmlComponent {

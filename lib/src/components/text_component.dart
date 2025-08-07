@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Text component for rendering text content with markdown support
 class TextComponent extends XmlComponent {

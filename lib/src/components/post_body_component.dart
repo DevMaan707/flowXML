@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Post body component for displaying generated content with copy functionality
 class PostBodyComponent extends XmlComponent with InteractiveComponent {

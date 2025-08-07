@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Card component for grouped content display
 class CardComponent extends XmlComponent {

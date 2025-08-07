@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Button component for interactive actions
 class ButtonComponent extends XmlComponent with InteractiveComponent {

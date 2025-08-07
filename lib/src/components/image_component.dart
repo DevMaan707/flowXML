@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Image component for displaying images from URLs
 class ImageComponent extends XmlComponent {

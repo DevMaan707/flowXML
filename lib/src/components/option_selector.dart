@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Option selector component for interactive choice selection
 class OptionSelectorComponent extends XmlComponent with InteractiveComponent {

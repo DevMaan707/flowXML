@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Selected option component for displaying user selections
 class SelectedOptionComponent extends XmlComponent {

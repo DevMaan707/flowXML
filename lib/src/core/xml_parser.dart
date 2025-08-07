@@ -1,6 +1,4 @@
 import 'dart:developer' as developer;
-import 'package:xml/xml.dart';
-import 'package:meta/meta.dart';
 
 import '../models/parsed_component.dart';
 import '../models/xml_parser_state.dart';

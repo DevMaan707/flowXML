@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/component_base.dart';
-import '../models/component_props.dart';
 
 /// Fallback component for unknown or invalid component types
 class FallbackComponent extends XmlComponent {
