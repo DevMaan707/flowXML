@@ -1,5 +1,6 @@
 # Miscellaneous
 *.class
+
 *.lock
 *.log
 *.pyc
@@ -32,10 +33,12 @@ analysis_benchmark.json
 .packages.generated
 
 # Flutter/Dart/Pub related
+
 **/doc/api/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+
 **/generated_plugin_registrant.dart
 .packages
 .pub-preload-cache/
